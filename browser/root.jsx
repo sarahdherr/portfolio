@@ -16,11 +16,11 @@ export default function Root () {
     <Provider store={store}>
       <Router history={browserHistory}>
         <Route path='/' component={AppContainer}>
+        <Route path='/' component={About} />
         <Route path='/projects' component={Test} />
-        <Route path='/about' component={About} />
         <Route path='/contact' component={Contact} />
         <Route path='/home' component={Home} />
-        <IndexRedirect to='/about' />
+        <IndexRedirect to='/' />
         </Route>
       </Router>
     </Provider>
