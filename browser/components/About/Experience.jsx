@@ -4,6 +4,19 @@ export default (props) =>
   <div className='experience'>
     <h3>EXPERIENCE</h3>
     <div className='experience-list'>
+      <div className='col-sm-6 col-md-8 col-lg-8 exprience-summ'>
+        <h4 className='sparkles-title'>TEACHING FELLOW :: FULLSTACK ACADEMY OF CODE</h4>
+        <ul>
+          <li>Administered weekly technical interviews for prospective students</li>
+          <li>Led weekly technical interview prep of algorithms for senior cohorts</li>
+          <li>Dubugged, mentored and taught concepts and best practices to students</li>
+          <li>Managed 3 student projects from ideation to deployment as team manager, technical mentor and code reviewer</li>
+        </ul>
+      </div>
+      <div className='col-sm-6 col-md-3 col-lg-3 experience-img'>
+        <img src='grace-hopper.jpg' />
+      </div>
+      <div className='clearfix' />
       <div className='col-sm-6 col-md-3 col-lg-3 experience-img'>
         <img src='https://media.swansonvitamins.com/images/items/master/SN954.png' />
       </div>

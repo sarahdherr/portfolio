@@ -16656,6 +16656,45 @@ exports.default = function (props) {
       { className: 'experience-list' },
       _react2.default.createElement(
         'div',
+        { className: 'col-sm-6 col-md-8 col-lg-8 exprience-summ' },
+        _react2.default.createElement(
+          'h4',
+          { className: 'sparkles-title' },
+          'TEACHING FELLOW :: FULLSTACK ACADEMY OF CODE'
+        ),
+        _react2.default.createElement(
+          'ul',
+          null,
+          _react2.default.createElement(
+            'li',
+            null,
+            'Administered weekly technical interviews for prospective students'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Led weekly technical interview prep of algorithms for senior cohorts'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Dubugged, mentored and taught concepts and best practices to students'
+          ),
+          _react2.default.createElement(
+            'li',
+            null,
+            'Managed 3 student projects from ideation to deployment as team manager, technical mentor and code reviewer'
+          )
+        )
+      ),
+      _react2.default.createElement(
+        'div',
+        { className: 'col-sm-6 col-md-3 col-lg-3 experience-img' },
+        _react2.default.createElement('img', { src: 'grace-hopper.jpg' })
+      ),
+      _react2.default.createElement('div', { className: 'clearfix' }),
+      _react2.default.createElement(
+        'div',
         { className: 'col-sm-6 col-md-3 col-lg-3 experience-img' },
         _react2.default.createElement('img', { src: 'https://media.swansonvitamins.com/images/items/master/SN954.png' })
       ),
@@ -16784,7 +16823,7 @@ exports.default = function (props) {
         _react2.default.createElement(
           'p',
           null,
-          'One of my favorite ways to release stress and recenter my mind. The balance of the breath and the focus on my muscles gives me a much needed reset from the city. Another short sentence goes here.'
+          'One of my favorite ways to release stress and recenter my mind is through the practice of yoga. The balance of the breath and the focus on my muscles gives me a much needed reset from the city.'
         )
       ),
       _react2.default.createElement(

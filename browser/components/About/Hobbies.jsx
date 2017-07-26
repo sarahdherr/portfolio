@@ -9,7 +9,7 @@ export default (props) =>
           <img src='http://www.fivepillarsyoga.com/wp-content/uploads/2017/01/c12fbedba2d234e04f308c23fd73a131.jpg' />
         </div>
         <h4>YOGA</h4>
-        <p>One of my favorite ways to release stress and recenter my mind. The balance of the breath and the focus on my muscles gives me a much needed reset from the city. Another short sentence goes here.</p>
+        <p>One of my favorite ways to release stress and recenter my mind is through the practice of yoga. The balance of the breath and the focus on my muscles gives me a much needed reset from the city.</p>
       </div>
       <div className='col-sm-6 col-md-3 col-lg-3'>
         <div className='hobby-img'>
